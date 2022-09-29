@@ -58,5 +58,94 @@ header button {
     padding: 2px 2px;
 }
 /* fine main */
+/* inizio footer */
+footer{
+    position: fixed;
+    width: 100%;
+    background-color: rgb(37, 37, 37);
+    bottom: 0;
+    left: 0;
+    color: white;
+    min-width: 1200px;
+}
+
+.footer-flex{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-start;
+    align-content: center;
+}
+
+ul{
+    display: flex;
+    justify-content: flex-start;
+    list-style-type: none;
+    gap: 10px;
+}
+
+li{
+    text-align: center;
+}
+
+.angle-up i{
+    font-size: 12px;
+}
+
+li p{
+    font-size: 12px;
+}
+
+div i{
+    font-size: 1.4rem;
+    margin:3px;
+}
+
+li:hover{
+    cursor: pointer;
+    color: lightgreen;
+}
+
+.user-control{
+    padding-left: 10px;
+}
+
+.user-control, .end-meeting{
+    width: 25%;
+    align-self: center;
+    height: 100%;
+}
+
+nav{
+    width: 50%;
+    align-self: center;
+    padding: 5px;
+}
+
+nav ul{
+    display: flex;
+    justify-content: center;
+}
+
+.green{
+    color: #4bc800;
+}
+
+.end-flex{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.end-btn{
+    cursor: pointer;
+    text-align: center;
+    right: 0;
+    width: 25%;
+    font-size: 12px;
+    padding: 25px 15px;
+    background-color: rgb(92, 92, 92);
+    color: red;
+    font-weight: 600;
+}
+/* fine footer */
 
 
