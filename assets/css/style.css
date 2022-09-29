@@ -1,5 +1,32 @@
+/* reset base css */
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+    font-family: 'Roboto', sans-serif;
+
 }
+
+body {
+    background-color: black;
+    color: white;
+}
+/* inizio header */
+header {
+    display: flex;
+    justify-content: flex-end;
+    height: 40px;
+}
+
+header button {
+    margin: 5px;
+    padding:5px 5px;
+    cursor: pointer;
+    background-color: black;
+    color:white;
+    border:none;
+}
+/* fine header */
+
+
